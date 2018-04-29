@@ -2,7 +2,6 @@ import telebot
 from telebot import types
 import flask
 import redis
-from telebot import types
 import requests
 import re
 from flask import request
