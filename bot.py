@@ -1,6 +1,4 @@
-import config
 import telebot
-token = config.token
 from telebot import types
 bot = telebot.TeleBot(token)
 import flask
