@@ -1,6 +1,5 @@
 import telebot
 from telebot import types
-bot = telebot.TeleBot(token)
 import flask
 import redis
 from telebot import types
@@ -13,7 +12,7 @@ from flask import Flask
 #################################################################################################################
 import os
 token = os.environ['TELEGRAM_TOKEN']
-
+bot = telebot.TeleBot(token)
 server = Flask(__name__)
 
 #################################################################################################################
