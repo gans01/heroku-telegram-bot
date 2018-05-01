@@ -129,7 +129,7 @@ def sendmessage(mess):
     elif mess.text == "Send invitation":
         set_stage("send invitation", mess)
 
-
+########################################################################################################################
 
 
 
